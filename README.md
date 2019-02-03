@@ -1,4 +1,4 @@
-#MSDS7330
+# MSDS7330
 
 https://en.wikipedia.org/wiki/Data_cleansing
 Data Quality
@@ -25,9 +25,9 @@ Validity, Integrity, Precision and Accuracy, Consistency, Uniformity
 
 https://norvig.com/spell-correct.html
 
-#Issues
-#Name subset	(American Airlines Tokyo -> American Airlines)
-#Name spelling	(Amrican Airlnes -> American Airlines)
-#Both 		(Amrican Airlnes Tokyo -> American Airlines)
-#Missing		(           )
-#Other		?
+# Issues
+# Name subset	(American Airlines Tokyo -> American Airlines)
+# Name spelling	(Amrican Airlnes -> American Airlines)
+# Both 		(Amrican Airlnes Tokyo -> American Airlines)
+# Missing		(           )
+# Other		?
