@@ -25,9 +25,24 @@ Validity, Integrity, Precision and Accuracy, Consistency, Uniformity
 
 https://norvig.com/spell-correct.html
 
-### Issues
-### Name subset	(American Airlines Tokyo -> American Airlines)
-### Name spelling	(Amrican Airlnes -> American Airlines)
-### Both 		(Amrican Airlnes Tokyo -> American Airlines)
-### Missing		(           )
-### Other		?
+###### Issues
+###### Name subset	(American Airlines Tokyo -> American Airlines)
+###### Name spelling	(Amrican Airlnes -> American Airlines)
+###### Both 		(Amrican Airlnes Tokyo -> American Airlines)
+###### Missing		(           )
+###### Other		?
+
+```
+### Project Workflow
+##### Initial steps
+1. Put data into MySQL database
+2. Make lookup table from prior entries
+3. Fix any erroneous lookup table entries
+##### Main Program
+4. Import lookup table from MySQL
+Import data (1000 rows) from MySQL
+5a. Enter known values from lookup table
+6.  
+```
+
+
