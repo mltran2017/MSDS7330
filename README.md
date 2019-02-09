@@ -33,6 +33,16 @@ Way to measure and define Data Quality (Validity, Accuracy, Completeness, Consis
 Time to complete for paper (with/without previous lookup table?)
 Workflow visualization
 ```
+### Paper Timeline
+```
+Week 5: Data exploration and resources identified.
+Week 6-7: Python solution in development.	
+Week 8: Lightning Talk given during class time.
+Week 10: Python solution testing completed.
+Week 12: Complete draft due.
+Week 15: Final presentation.
+Week 16: Final paper due.
+```
 ### Program Workflow
 ##### Initial steps
 ```
