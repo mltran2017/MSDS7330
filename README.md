@@ -68,7 +68,7 @@ NOTE: currently ignore all data that does not satisfy these criteria
 	(these could not be completed by previous algorithm)
 LOOP
 12. Display a row of 'Supplier name', 'Vendor Id', and 'Sub Vendor'
-	a. If any entries have been added to lookup table, do steps 6-8 with just that one new lookup entry.
+	a. If any entries have been added to lookup table, do steps 6-8 with just those new lookup entries.
 		1. If row is complete skip to step 12
 13. Manually add entry for 'Audit_Dashboard Vendor'
 14. Entry is added to lookup table
