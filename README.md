@@ -1,12 +1,13 @@
 # MSDS7330
 
 ### Websites of interest
+```
 https://en.wikipedia.org/wiki/Data_cleansing
 https://www.invensis.net/blog/data-processing/5-steps-data-cleansing-customer-data/
 https://www.trifacta.com/data-cleansing/
 http://vis.stanford.edu/wrangler/
 https://norvig.com/spell-correct.html
-
+```
 ##### Issues
 ```
 Name subset	(American Airlines Tokyo -> American Airlines)
