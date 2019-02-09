@@ -1,4 +1,4 @@
-# MSDS7330
+# DS 7330 Project
 
 ### Websites of interest
 ```
