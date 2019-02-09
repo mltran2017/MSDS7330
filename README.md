@@ -76,8 +76,8 @@ LOOP
 12. Display a row of 'Supplier name', 'Vendor Id', and 'Sub Vendor'
 	a. If any entries have been added to lookup table, do steps 6-8 with just those new lookup entries.
 		1. If row is complete skip to step 12
-13. Manually add entry for 'Audit_Dashboard Vendor'
-14. Entry is added to lookup table
+13. Select entry from lookup table OR manually add entry for 'Audit_Dashboard Vendor'
+14. IF NEW, entry is added to lookup table
 END LOOP
 15. Go to step 11
 ```
