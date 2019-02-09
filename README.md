@@ -8,7 +8,7 @@ https://www.trifacta.com/data-cleansing/
 http://vis.stanford.edu/wrangler/
 https://norvig.com/spell-correct.html
 ```
-##### Issues
+### Issues
 ```
 Name subset	(American Airlines Tokyo -> American Airlines)
 Name spelling	(Amrican Airlnes -> American Airlines)
@@ -16,7 +16,7 @@ Both 		(Amrican Airlnes Tokyo -> American Airlines)
 Missing		(           )
 Other		?
 ```
-##### Physical Requirements
+### Physical Requirements
 ```
 MySQL
 Python
@@ -24,7 +24,7 @@ Python to MySQL connection
 Python library pandas
 Spell check algorithm
 ```
-##### Other Requirements
+### Other Requirements
 ```
 Logging of changes saved to file (what format, how detailed)
 Batch processing of data to prevent loss of data
@@ -33,7 +33,7 @@ Way to measure and define Data Quality (Validity, Accuracy, Completeness, Consis
 Time to complete for paper (with/without previous lookup table?)
 Workflow visualization
 ```
-## Program Workflow
+### Program Workflow
 ##### Initial steps
 ```
 1. Put data into MySQL database
