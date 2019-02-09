@@ -2,11 +2,16 @@
 
 ### Websites of interest
 ```
-https://en.wikipedia.org/wiki/Data_cleansing
-https://www.invensis.net/blog/data-processing/5-steps-data-cleansing-customer-data/
-https://www.trifacta.com/data-cleansing/
-http://vis.stanford.edu/wrangler/
-https://norvig.com/spell-correct.html
+General information about Data Cleaning/Clensing
+	https://en.wikipedia.org/wiki/Data_cleansing
+Some possible steps in a cleaning process
+	https://www.invensis.net/blog/data-processing/5-steps-data-cleansing-customer-data/
+A business that cleans data, probably nothing interesting
+	https://www.trifacta.com/data-cleansing/
+Precursor to trifacta (stanford project), has a video, already included features form it
+	http://vis.stanford.edu/wrangler/
+Brief spelling corrector
+	https://norvig.com/spell-correct.html
 ```
 ### Issues
 ```
