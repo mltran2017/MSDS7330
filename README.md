@@ -37,8 +37,9 @@ Way to measure and define Data Quality (Validity, Accuracy, Completeness, Consis
 	(or Validity, Integrity, Precision and Accuracy, Consistency, Uniformity, etc...)
 Time to complete for paper (with/without previous lookup table?)
 Workflow visualization
+Write the paper
 ```
-### Paper Timeline
+### Project Timeline
 ```
 Week 5: Data exploration and resources identified.
 Week 6-7: Python solution in development.	
