@@ -91,7 +91,12 @@ Loading data from CSV into table:
 	3. find the allowed folder location 'SHOW VARIABLES LIKE "secure_file_priv";' to import the data
 		Then it takes ~10seconds to import the data
 Loading:
-	CHARACTER SET latin1	This is one of the settings for loading the character language set, I don't know if this is the 		correct one but it works, the default (just removing this command) doesn't work. If the imported 				languages are incorrect (ex: maybe it doesn't read in chinesee characters) then maybe need a 					different character set. ALSO we may have to export the data from the original database under a 				different character set if that doesn't work.
+	CHARACTER SET latin1	This is one of the settings for loading the character language set, I don't know
+				if this is the correct one but it works, the default (just removing this command)
+				doesn't work. If the imported languages are incorrect (ex: maybe it doesn't read
+				in chinesee characters) then maybe need a different character set. ALSO we may
+				have to export the data from the original database under a different character
+				set if that doesn't work.
 	OPTIONALLY ENCLOSED BY '"' is necessary for fields that have a space in them or possibly a ',' inside them
 PYTHON
 	Using mysql.connector to connect to database
