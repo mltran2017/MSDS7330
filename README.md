@@ -81,5 +81,24 @@ LOOP
 END LOOP
 15. Go to step 11
 ```
-
-
+### Things we came across when writing the code
+```
+Loading data from CSV into table:
+	1. If you use the Table Data import wizard it will take a long time to load it (hours)
+	2. using the 'LOAD DATA INFILE' command you run into a problem:
+	https://stackoverflow.com/questions/32737478/how-should-i-tackle-secure-file-priv-in-mysql
+		Some people add the 'LOCAL' keyword, but I think it is an outdated command and it didn't work
+	3. find the allowed folder location 'SHOW VARIABLES LIKE "secure_file_priv";' to import the data
+		Then it takes ~10seconds to import the data
+Loading:
+	CHARACTER SET latin1	This is one of the settings for loading the character language set, I don't know if this is the 		correct one but it works, the default (just removing this command) doesn't work. If the imported 				languages are incorrect (ex: maybe it doesn't read in chinesee characters) then maybe need a 					different character set. ALSO we may have to export the data from the original database under a 				different character set if that doesn't work.
+	OPTIONALLY ENCLOSED BY '"' is necessary for fields that have a space in them or possibly a ',' inside them
+PYTHON
+	Using mysql.connector to connect to database
+	Not the fastest according to the internet:
+	https://stackoverflow.com/questions/4960048/how-can-i-connect-to-mysql-in-python-3-on-windows
+	input() function does not hide you input, need something else for that
+	the 'try' allows the code to continue without crashing even if the connection fails
+	Using pandas to do the SQL database queries because it returns something easy to manipulate
+	Close the connection to the database when you are done with it
+```
