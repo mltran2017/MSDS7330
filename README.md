@@ -108,4 +108,19 @@ PYTHON
 	the 'try' allows the code to continue without crashing even if the connection fails
 	Using pandas to do the SQL database queries because it returns something easy to manipulate
 	Close the connection to the database when you are done with it
+
+NEW FEB 21
+	pandas read_sql can not create a table because it does not return a table
+	in python three " makes all text until next three " inside the quote
+	Need cnx.commit() after using the cursor commands otherwise nothing will happen
+	Saving the query into a string and then using that string to execute a query does not work
+	unless you put multi = False into the execute statment
+
+	pandas dataframes index starts at 0
+	pandas : is a kind of select all in the dataframe
+	pandas .iloc is how you access rows/columns by index and not by name
+	https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/
+
+	Renaming columns info:
+	https://cmdlinetips.com/2018/03/how-to-change-column-names-and-row-indexes-in-pandas/	
 ```
