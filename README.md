@@ -109,7 +109,7 @@ PYTHON
 	Using pandas to do the SQL database queries because it returns something easy to manipulate
 	Close the connection to the database when you are done with it
 
-NEW FEB 21
+FEB 21
 	pandas read_sql can not create a table because it does not return a table
 	in python three " makes all text until next three " inside the quote
 	Need cnx.commit() after using the cursor commands otherwise nothing will happen
@@ -123,4 +123,10 @@ NEW FEB 21
 
 	Renaming columns info:
 	https://cmdlinetips.com/2018/03/how-to-change-column-names-and-row-indexes-in-pandas/	
+
+MAR 23
+	You need to "escape" the special characters in a string otherwise it will cause the insert
+	of the data to not occur
+	Inserting a foreign key has to be done by searching that other table for the value first
+	nested inside the insert statement
 ```
