@@ -129,4 +129,6 @@ MAR 23
 	of the data to not occur
 	Inserting a foreign key has to be done by searching that other table for the value first
 	nested inside the insert statement
+	When using UPDATE, you must select by a primary key otherwise you ahve to use:
+	set SQL_SAFE_UPDATES = 0; first so that it will ignore that requirement.
 ```
