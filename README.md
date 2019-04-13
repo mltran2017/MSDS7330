@@ -1,5 +1,7 @@
 # DS 7330 Project
 
+https://zoom.us/j/9488722401
+
 ### Websites of interest
 ```
 General information about Data Cleaning/Clensing
